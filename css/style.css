@@ -48,6 +48,10 @@ body{
     padding: 20px 80px;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    z-index: 999;
+    position: sticky;
+    top : 0;
+    left : 0;
 }
 #navbar{
     display: flex;
@@ -90,4 +94,26 @@ left:20px;
     background-repeat: no-repeat;
     background-position: top 25% right 0;
     background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center ;
+}
+#Hero h4{
+    padding-bottom: 15px;
+}
+#Hero h1{
+    color:#088178;
+}
+#Hero button {
+    background-image: url("../images/button2.jpg");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 40px 80px 14px 65px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   font-size: 15px;
 }
